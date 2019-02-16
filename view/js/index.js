@@ -3,12 +3,16 @@ $(document).ready(function(){
 
     $("#abrirRegistro").click(function(){
         $("#login").fadeOut("slow");
-        $("#registro").fadeIn("slow");
+        setTimeout(function(){
+            $("#registro").fadeIn("slow");
+        }, 3000);
     });
 
     $("#volverLogin").click(function(){
         $("#registro").fadeOut("slow");
-        $("#login").fadeIn("slow");
+        setTimeout(function(){
+            $("#login").fadeIn("slow");
+        }, 3000);
     });
 
 });
