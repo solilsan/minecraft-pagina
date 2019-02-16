@@ -18,7 +18,7 @@ class UsuarioController extends IndexController{
 
     public function index(){
 
-        $this->render('index',array());
+        $this->render('indexView',array());
 
     }
 }
