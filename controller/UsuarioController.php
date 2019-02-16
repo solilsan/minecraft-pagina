@@ -15,7 +15,7 @@ class UsuarioController extends IndexController{
         $this->conectar = new Conexion();
         $this->conexion = $this->conectar->conexion();
     }
-    
+
     public function index(){
 
         $this->render('index',array());

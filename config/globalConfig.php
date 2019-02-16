@@ -1,6 +1,6 @@
 <?php
 
-define("controladorDefecto","evento");
+define("controladorDefecto","index");
 define("accionDefecto","index");
 
 ?>
