@@ -4,12 +4,12 @@ $(document).ready(function(){
 
     $("#abrirRegistro").click(function(){
         $("#login").fadeOut();
-        $("#registro").fadeIn();
+        $("#registro").fadeIn("slow");
     });
 
     $("#volverLogin").click(function(){
         $("#registro").fadeOut();
-        $("#login").fadeIn();
+        $("#login").fadeIn("slow");
     });
 
 });
