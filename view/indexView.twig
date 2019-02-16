@@ -1,8 +1,9 @@
 {% extends "templates/indexLayout.html.twig" %}
 
 {% block login %}
+
     <!-- Default form login -->
-    <form class="text-center border border-light p-5">
+    <form id="login" class="text-center border border-light p-5 mt-5">
 
         <p class="h4 mb-4">Login</p>
 
@@ -27,13 +28,58 @@
         </div>
 
         <!-- Sign in button -->
-        <button class="btn btn-outline-info btn-block my-4" type="submit">Login</button>
+        <button id="botonLogin" class="btn btn-outline-info btn-block my-4" type="submit">Login</button>
 
         <!-- Register -->
         <p>Not a member?
-            <a href="">Register</a>
+            <a id="abrirRegistro">Register</a>
         </p>
 
     </form>
     <!-- Default form login -->
+
+    <!-- Default form register -->
+    <form id="registro" class="text-center border border-light p-5">
+
+        <a id="volverLogin">Volver</a>
+
+        <p class="h4 mb-4">Sign up</p>
+
+        <!-- First name -->
+        <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+
+        <!-- E-mail -->
+        <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+        <!-- Password -->
+        <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+        <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+            At least 8 characters and 1 digit
+        </small>
+
+        <!-- Phone number -->
+        <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+        <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+            Optional - for two step authentication
+        </small>
+
+        <!-- Newsletter -->
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+            <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our newsletter</label>
+        </div>
+
+        <!-- Sign up button -->
+        <button id="botonRegistro" class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+
+        <hr>
+
+        <!-- Terms of service -->
+        <p>By clicking
+            <em>Sign up</em> you agree to our
+            <a href="" target="_blank">terms of service</a>
+
+    </form>
+    <!-- Default form register -->
+
 {% endblock %}
