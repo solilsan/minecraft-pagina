@@ -1,4 +1,3 @@
-$('#registro').hide();
 
 $(document).ready(function(){
 
