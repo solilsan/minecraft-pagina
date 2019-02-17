@@ -26,4 +26,19 @@ class UsuarioController extends IndexController{
 
         $this->render('politicaPrivacidadView',array());
     }
+
+    public function registro(){
+
+        if (isset($_POST['nombreRegistro'])){
+
+            $usuario = new Usuario($this->conexion);
+            $usuario->setNombre($_POST['nombreRegistro']);
+            $usuario->setEmail($_POST['emailRegistro']);
+            $pass = $_POST['passwordRegistro'];
+            $passHash = password_hash($pass, PASSWORD_BCRYPT);
+            $usuario->setPassword($passHash);
+
+            $usuario->registro();
+        }
+    }
 }

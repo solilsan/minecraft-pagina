@@ -13,6 +13,20 @@ class Usuario{
         $this->conexion = $conexion;
     }
 
+    public function registro(){
+
+        $insert = $this->conexion->prepare("INSERT INTO usuario(nombre,email,password) VALUES(:nombre,:email,:password)");
+
+        $insert->execute(array(
+            "nombre" => $this->nombre,
+            "email" => $this->email,
+            "password" => $this->password
+        ));
+
+        $this->conexion = null;
+
+    }
+
     /**
      * @return mixed
      */
