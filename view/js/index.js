@@ -29,10 +29,10 @@ $(document).ready(function(){
 function registro() {
 
     var datos = $('#registro').serialize();
-debugger;
+
     $.ajax({
         data: datos,
-        url: 'api/usuario/registro',
+        url: 'index.php?controller=Usuario&action=registro',
         type: 'post',
         success: function (data) {
             alert("usuario registrado");
