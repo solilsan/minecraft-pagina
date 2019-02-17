@@ -19,4 +19,28 @@ $(document).ready(function(){
         }, 800);
     });
 
+    $('#botonRegistro').click(function () {
+
+        registro();
+    });
+
 });
+
+function registro() {
+
+    var datos = $('#registro').serialize();
+
+    $.ajax({
+        data: datos,
+        url: 'api/usuario/registro',
+        type: 'post',
+        success: function (data) {
+            alert("usuario registrado");
+        },
+        error: function (data) {
+            alert("Error " + data);
+        }
+    });
+
+    return false;
+}

@@ -40,5 +40,6 @@ class UsuarioController extends IndexController{
 
             $usuario->registro();
         }
+
     }
 }
