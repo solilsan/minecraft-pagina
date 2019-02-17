@@ -13,11 +13,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/indexView.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="461">
+              <caret line="72" column="87" selection-start-line="72" selection-start-column="87" selection-end-line="72" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/UsuarioController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/politicaPrivacidadView.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+              <folding>
+                <element signature="e#928#934#0#HTML" expanded="true" />
+                <element signature="e#1948#1954#0#HTML" expanded="true" />
+                <element signature="e#3186#3192#0#HTML" expanded="true" />
+                <element signature="e#4182#4188#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/view/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -43,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/templates/indexLayout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="357">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -59,12 +83,14 @@
       <list>
         <option value="$PROJECT_DIR$/controller/IndexController.php" />
         <option value="$PROJECT_DIR$/model/Usuario.php" />
-        <option value="$PROJECT_DIR$/controller/UsuarioController.php" />
         <option value="$PROJECT_DIR$/config/dbConfig.php" />
-        <option value="$PROJECT_DIR$/view/templates/indexLayout.html.twig" />
         <option value="$PROJECT_DIR$/view/css/style.css" />
         <option value="$PROJECT_DIR$/view/js/index.js" />
+        <option value="$PROJECT_DIR$/politiva_privacidad" />
+        <option value="$PROJECT_DIR$/view/templates/indexLayout.html.twig" />
         <option value="$PROJECT_DIR$/view/indexView.twig" />
+        <option value="$PROJECT_DIR$/controller/UsuarioController.php" />
+        <option value="$PROJECT_DIR$/view/politicaPrivacidadView.twig" />
       </list>
     </option>
   </component>
@@ -77,7 +103,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="396" />
-    <option name="y" value="123" />
+    <option name="y" value="85" />
     <option name="width" value="1478" />
     <option name="height" value="962" />
   </component>
@@ -113,30 +139,6 @@
               <item name="minecraft-pagina" type="b2602c69:ProjectViewProjectNode" />
               <item name="minecraft-pagina" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="minecraft-pagina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="minecraft-pagina" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="minecraft-pagina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="minecraft-pagina" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="minecraft-pagina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="minecraft-pagina" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="minecraft-pagina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="minecraft-pagina" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,10 +179,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6402000" />
+    <option name="totallyTimeSpent" value="8461000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="396" y="123" width="1478" height="962" extended-state="0" />
+    <frame x="396" y="85" width="1478" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496474" />
@@ -225,13 +227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/UsuarioController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/dbConfig.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -251,13 +246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/templates/indexLayout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -268,14 +256,48 @@
     <entry file="file://$PROJECT_DIR$/view/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/politiva_privacidad">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/templates/indexLayout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/indexView.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="461">
+          <caret line="72" column="87" selection-start-line="72" selection-start-column="87" selection-end-line="72" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/UsuarioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/politicaPrivacidadView.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+          <folding>
+            <element signature="e#928#934#0#HTML" expanded="true" />
+            <element signature="e#1948#1954#0#HTML" expanded="true" />
+            <element signature="e#3186#3192#0#HTML" expanded="true" />
+            <element signature="e#4182#4188#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

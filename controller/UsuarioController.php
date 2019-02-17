@@ -21,4 +21,9 @@ class UsuarioController extends IndexController{
         $this->render('indexView',array());
 
     }
+
+    public function vistaPP(){
+
+        $this->render('politicaPrivacidadView',array());
+    }
 }
