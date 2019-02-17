@@ -29,7 +29,7 @@ $(document).ready(function(){
 function registro() {
 
     var datos = $('#registro').serialize();
-
+debugger;
     $.ajax({
         data: datos,
         url: 'api/usuario/registro',
